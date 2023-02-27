@@ -1,0 +1,123 @@
+
+.diceOutcome{
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+#diceOutcome{
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.diceArea{
+    display: flex;
+    height: 33%;
+    width: 100%;
+}
+
+
+.bettedOn{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bettedOn input, button{
+    border: solid 1px rgb(39, 39, 39);
+    border-radius: 2px;
+    justify-content: space-around;
+    
+}
+
+.bettedOn input{
+    width: 55px;
+    height: 56px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bettedOn button{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.betAmount{
+    
+    justify-content: center;
+    height: 25%;
+    width: 100%;
+}
+
+.betInput input, button {
+    border: solid 1px #555B6E;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0;
+    
+}
+
+.betInput input {
+    
+    width: 50%;
+    height: 40px;
+    border-radius: 2px 0 0 2px;
+    
+    border: solid 1px #888c9c;
+    padding: 0;
+}
+
+.betInput button {
+    width: 17%;
+    height: 42px;
+    background-color: #a1ac0c;
+    color: rgb(3, 3, 3);
+    border: solid 1px #4468e8;
+    border-radius: 0 2px 2px 0;
+}
+
+.betAmount label {
+    text-align: center;
+    display: block;
+    color: #888c9c;
+    margin-bottom: 10px;
+    
+}
+
+.betInput{
+    text-align: center;
+}
+
+
+
+.info{
+    display: flex;
+    height:9%;
+    width: 100%;
+    justify-content: space-between;
+}
+.balance input{
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.resetButton button{
+    width: auto;
+    height: 42px;
+    background-color: #a1ac0c;
+    color: rgb(3, 3, 3);
+    border: solid 1px #4468e8;
+    border-radius: 0 2px 2px 0;
+    margin-left: 20px;
+}

@@ -1,0 +1,49 @@
+
+<div class="diceArea">
+
+    <div class="diceOutcome"> 
+      <input id="diceOutcome" readonly placeholder="2-12" #diceOutcome value=> 
+    </div>
+
+  </div>
+
+  <label for="bet-on" style="display: flex;justify-content: center; text-align: center;
+  font-weight: bold;">Bet on:</label>
+
+  <div class="bettedOn">
+
+    
+    <button (click)="decrementBetOn()"> - </button>
+    <input readonly type="number" id="bet-on" value=2 #betOn>
+    <button (click)="incrementBetOn()"> + </button> 
+  
+  
+  </div>
+
+  <div class="betAmount">
+
+    <label for="betTextArea" style="display: flex; justify-content: center;">Bet Amount:</label>
+
+    <div class="betInput">
+
+      <input type="number" min="100" max="1000" id="betTextArea" placeholder=" 100 - 1000 " required #betAmount value="">
+      <button id="placeBetButton" (click)="placeBet()">Place</button>
+
+    </div>
+
+  </div>
+
+
+  <div class="info">
+
+    <div class="resetButton">
+      <button id="reset" (click)="resetBalance()" #reset   >Reset Balance</button>
+
+    </div>
+
+    <div class="balance">
+      Balance :
+      <input type="number" id="balance" #balance readonly placeholder="10.000" value=10000 >
+    </div>
+
+  </div>
